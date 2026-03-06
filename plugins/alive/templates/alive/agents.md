@@ -36,7 +36,7 @@ Do not respond about a walnut without reading its core files. Never guess at fil
 6. One walnut, one focus.
 7. Sign everything with session_id, runtime_id, engine.
 8. Zero-context standard on every save.
-9. Be specific. Always include file paths, filenames, and timestamps. Never summarise when you can cite. "`_core/now.md`" not "the state file." "`2026-03-05T18:00:00`" not "earlier today."
+9. Be specific. Always include file paths, filenames, and timestamps. Never summarize when you can cite. "`_core/now.md`" not "the state file." "`2026-03-05T18:00:00`" not "earlier today."
 10. Route people. When someone is mentioned with new context, stash it tagged to their person walnut (`[[first-last]]`). No walnut yet → flag at save.
 
 ---

@@ -19,6 +19,9 @@ tags: []
 <!-- Verbatim passages worth preserving. Things you'd want to
      reference or cite. -->
 
+## Action Items
+<!-- Rarely applicable for articles. Remove this section if empty. -->
+
 ## Relevance
 <!-- Why was this captured? How does it connect to the walnut?
      What decisions or thinking does it inform? -->

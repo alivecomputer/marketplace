@@ -8,7 +8,7 @@ squirrel: {{session_id}}
 tags: []
 ---
 
-## Synthesis
+## Summary
 <!-- The squirrel's structured summary of what was found. Not raw search
      results — processed knowledge. What did we learn? What's the answer? -->
 

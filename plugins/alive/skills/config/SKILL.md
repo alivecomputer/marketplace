@@ -48,14 +48,14 @@ If unclear, the squirrel asks once:
 ### Toggle Keys (default: all ON)
 
 ```yaml
-# Squirrel behaviour
+# Squirrel behavior
 spark: true                    # The Spark observation at walnut open
 show_reads: true               # Show ▸ indicators when loading files
 stash_checkpoint: true         # Shadow-write stash to squirrel YAML every 5 items / 20 min
 always_watching: true          # Background instincts: people, working fits, capturable content
 save_prompt: true              # Ask "anything else?" before save
 
-# World behaviour
+# World behavior
 health_nudges: true            # Surface stale walnut warnings proactively
 
 # Display

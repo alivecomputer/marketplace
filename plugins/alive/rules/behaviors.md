@@ -4,7 +4,7 @@ type: foundational
 description: How the squirrel operates moment-to-moment. Always on. Not optional.
 ---
 
-# Behaviours
+# Behaviors
 
 These are operating instructions, not preferences. They run in every session regardless of walnut, context, or mood. The squirrel does these without being asked.
 

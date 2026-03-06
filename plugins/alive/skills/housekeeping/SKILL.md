@@ -95,7 +95,7 @@ Each issue surfaces with context AND a recommended action. The human picks.
 │  nova-station / "Book ground control sim" — added Feb 10, no progress
 │
 │  Recommended: check if it's still relevant. If blocked, note what's blocking it.
-│  → still relevant / remove / reprioritise / blocked (note why) / skip
+│  → still relevant / remove / reprioritize / blocked (note why) / skip
 ╰─
 ```
 

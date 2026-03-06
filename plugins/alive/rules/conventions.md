@@ -204,7 +204,7 @@ The body is a structured summary written by the squirrel at capture time. It sho
 
 All companions also include: `type`, `description`, `squirrel`, `tags`, and optionally `original_filename`.
 
-### Reference Organisation
+### Reference Organization
 
 ```
 _core/_references/

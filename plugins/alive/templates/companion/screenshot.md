@@ -17,6 +17,9 @@ tags: []
      layout observations, UI elements. The stuff you'd lose if the
      image disappeared. -->
 
+## Action Items
+<!-- Rarely applicable for screenshots. Remove this section if empty. -->
+
 ## Relevance
 <!-- Why was this captured? What decision or work does it inform? -->
 

@@ -119,8 +119,8 @@ The Rules Guardian hook blocks Edit/Write on all system files. This prevents acc
 - All live context (everything outside `_core/`)
 - All walnut data (key.md, now.md, log.md, insights.md, tasks.md)
 
-### Customising Rules
+### Customizing Rules
 
-The human customises system behaviour through `.alive/overrides.md`, not by editing plugin rules directly. This file is loaded alongside the plugin rules. Where overrides conflict with plugin defaults, the overrides take precedence.
+The human customizes system behavior through `.alive/overrides.md`, not by editing plugin rules directly. This file is loaded alongside the plugin rules. Where overrides conflict with plugin defaults, the overrides take precedence.
 
-This separation means plugin updates never risk overwriting their customisations, and their preferences survive every update cleanly.
+This separation means plugin updates never risk overwriting their customizations, and their preferences survive every update cleanly.

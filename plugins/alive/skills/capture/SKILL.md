@@ -55,11 +55,13 @@ Even if extraction fails or is skipped, the raw content is preserved.
 - `squirrel:` — which session captured it
 - Type-specific fields (from, to, participants, etc.)
 
-**Body** (read tier) — AI-generated structured summary:
+**Body** (read tier) — AI-generated structured summary. Default sections:
 - `## Summary` — 2-5 sentences on what this is and why it matters
 - `## Key Points` — specific facts, data, claims
 - `## Action Items` — tasks, commitments, deadlines
 - `## Source` — pointer to raw file path
+
+Type-specific companion templates (in `templates/companion/`) override these defaults with richer sections suited to the content type. Use the template when one exists.
 
 The body should be **detailed enough that you rarely need the raw file.** This is the middle tier that saves the squirrel from loading the full raw content every time. Write it like someone who has 30 seconds to understand what this reference contains.
 
@@ -165,7 +167,7 @@ date: 2026-02-23
 **This is critical.** When the squirrel does significant research during a session — web searches, code analysis, system exploration, competitor analysis, architecture research, API investigation — that knowledge MUST NOT die with the conversation. It cost tokens, time, and thinking to produce. It is a first-class reference.
 
 The squirrel should proactively offer to capture when:
-- Significant research was done (10+ minutes of searching/reading/synthesising)
+- Significant research was done (10+ minutes of searching/reading/synthesizing)
 - A complex topic was explored with multiple sources
 - You asked the squirrel to investigate something
 - The squirrel produced a synthesis, comparison, or analysis worth keeping

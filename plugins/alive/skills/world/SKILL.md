@@ -26,8 +26,7 @@ NOT a database dump. NOT a flat list. A living view of their world, grouped by w
 Before rendering, detect system state:
 
 - **Fresh install** (no walnuts exist) → route to `setup.md`
-- **Stale rules** (plugin version > project rules version) → route to `upgrade.md`
-- **Previous system detected** (v3/v4 `_brain/` folders exist) → route to `upgrade.md`
+- **Previous system detected** (v3/v4 `_brain/` folders exist) → offer migration via `/alive:create` migrate mode
 - **Normal** → render dashboard
 
 ---
@@ -205,8 +204,4 @@ Filter by walnut scoping — only show sources where `walnuts: all` or the curre
 
 ## Internal Modes
 
-These have their own .md files in this skill directory. They are NOT separately invocable — they trigger automatically based on state detection.
-
-- `setup.md` — first-time world creation
-- `calibrate.md` — progressive 30-day context extraction
-- `upgrade.md` — version migration from previous systems
+- `setup.md` — first-time world creation (triggers automatically when no ALIVE structure found)

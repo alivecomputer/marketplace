@@ -140,7 +140,7 @@ Each file-capture subagent needs:
 6. Instruction to follow `alive:capture` Stage 0 + 1 process exactly
 7. Instruction to read the companion template BEFORE writing — not reconstruct from memory
 
-The subagent writes directly to the walnut's `_core/_references/` — capture is one of two operations allowed to write mid-session per `rules/behaviours.md`.
+The subagent writes directly to the walnut's `_core/_references/` — capture is one of two operations allowed to write mid-session per `rules/behaviors.md`.
 
 ---
 

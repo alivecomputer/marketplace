@@ -18,7 +18,7 @@
 <!-- What was actually built, written, edited, shipped. Concrete outputs. -->
 
 ### Tasks
-<!-- Tasks created, completed, or reprioritised this session.
+<!-- Tasks created, completed, or reprioritized this session.
      - [ ] new task
      - [x] completed task -->
 
