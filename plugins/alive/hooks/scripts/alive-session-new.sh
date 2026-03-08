@@ -44,6 +44,7 @@ ended: null
 signed: false
 transcript: ${HOOK_TRANSCRIPT}
 cwd: ${HOOK_CWD}
+rules_loaded: 0
 stash: []
 working: []
 EOF
@@ -72,6 +73,15 @@ for rule_file in "$PLUGIN_ROOT/rules/"*.md; do
 $(cat "$rule_file")"
   fi
 done
+
+# Update squirrel YAML with actual rule count (was 0 at creation time)
+if [ -f "$ENTRY_FILE" ]; then
+  if sed --version >/dev/null 2>&1; then
+    sed -i "s/rules_loaded: 0/rules_loaded: $RULE_COUNT/" "$ENTRY_FILE"
+  else
+    sed -i '' "s/rules_loaded: 0/rules_loaded: $RULE_COUNT/" "$ENTRY_FILE"
+  fi
+fi
 
 # Preamble
 PREAMBLE="<EXTREMELY_IMPORTANT>
