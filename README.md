@@ -2,7 +2,7 @@
   <img src="alivecomputer-logo.png" alt="Alive Computer" width="600">
 </p>
 
-[![Version](https://img.shields.io/badge/version-1.0.1--beta-copper)](https://github.com/alivecomputer/plugins/releases)
+[![Version](https://img.shields.io/badge/version-1.0.1--beta-copper)](https://github.com/alivecomputer/marketplace/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-blueviolet)](https://docs.anthropic.com/en/docs/claude-code)
 
@@ -227,7 +227,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## Community
 
 - [Worldbuilders on Skool](https://skool.com/worldbuilders) — discussion, feedback, show & tell
-- [GitHub Discussions](https://github.com/alivecomputer/plugins/discussions) — bugs, features, ideas
+- [GitHub Discussions](https://github.com/alivecomputer/marketplace/discussions) — bugs, features, ideas
 
 ## License
 
