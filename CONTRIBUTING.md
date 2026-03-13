@@ -58,10 +58,6 @@ Templates in `plugins/alive/templates/` define the schema for system files. The 
 
 Use [GitHub Issues](https://github.com/alivecomputer/context/issues) for bugs and feature requests. Use the provided templates.
 
-## Community
-
-Join [Worldbuilders on Skool](https://skool.com/worldbuilders) for discussion, feedback, and show & tell.
-
 ## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.

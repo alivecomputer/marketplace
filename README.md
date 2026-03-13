@@ -246,7 +246,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Community
 
-- [Worldbuilders on Skool](https://skool.com/worldbuilders) — discussion, feedback, show & tell
 - [GitHub Discussions](https://github.com/alivecomputer/context/discussions) — bugs, features, ideas
 
 ---
