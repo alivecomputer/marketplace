@@ -2,7 +2,7 @@
   <img src="alivecomputer-logo.png" alt="Alive Computer" width="600">
 </p>
 
-[![Version](https://img.shields.io/badge/version-1.0.1--beta-copper)](https://github.com/alivecomputer/claude-plugins/releases)
+[![Version](https://img.shields.io/badge/version-1.0.1--beta-copper)](https://github.com/alivecomputer/plugins/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-blueviolet)](https://docs.anthropic.com/en/docs/claude-code)
 
@@ -71,7 +71,7 @@ The runtime is the role. The model is the engine. Swap Claude for GPT, Gemini, o
 Every session follows the same lifecycle. No unclosed loops. No orphaned state.
 
 ```
-OPEN ──→ WORK ──→ SAVE ──→ (continue or exit)
+LOAD ──→ WORK ──→ SAVE ──→ (continue or exit)
   │         │         │
   │         │         ├─ stash routed to files
   │         │         ├─ log entry prepended (signed)
@@ -227,7 +227,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## Community
 
 - [Worldbuilders on Skool](https://skool.com/worldbuilders) — discussion, feedback, show & tell
-- [GitHub Discussions](https://github.com/alivecomputer/claude-plugins/discussions) — bugs, features, ideas
+- [GitHub Discussions](https://github.com/alivecomputer/plugins/discussions) — bugs, features, ideas
 
 ## License
 
