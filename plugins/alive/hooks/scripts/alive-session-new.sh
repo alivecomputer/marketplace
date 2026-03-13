@@ -112,10 +112,12 @@ engine: $HOOK_MODEL
 walnut: null
 started: $TIMESTAMP
 ended: null
-signed: false
+saves: 0
+last_saved: null
 transcript: ${HOOK_TRANSCRIPT}
 cwd: ${HOOK_CWD}
 rules_loaded: $RULE_COUNT
+tags: []
 stash: []
 working: []
 EOF
